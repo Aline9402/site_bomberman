@@ -1,0 +1,156 @@
+/* main.css */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color:#00CED1;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background: #282c34;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header h1,
+section {
+    font-family: kanit, sans-serif;
+}
+
+body {
+    font-family: Roboto condensed, sans-serif;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    height: 50px; /* Ajuste conforme necessário */
+    margin-right: 10px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    flex: 1;
+}
+
+main h2 {
+    color: #333;
+}
+
+main p {
+    color: #666;
+}
+
+section {
+    border-radius: 5px;
+    background-color:#40E0D0;
+    color: #00FFFF;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+section#contact h2 {
+    text-align: center; /* Centraliza o título horizontalmente */
+    margin-bottom: 20px; /* Adiciona espaço abaixo do título */
+}
+
+section#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Espaçamento entre as imagens */
+}
+
+section#gallery img {
+    width: 400px; /* Ajuste a largura conforme necessário */
+    height: auto;
+    border-radius: 5px; /* Opcional: arredondando os cantos das imagens */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Opcional: adicionando uma sombra */
+}
+
+form label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    color: #333;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #2F4F4F;
+    border-radius: 5px;
+}
+
+form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+main form {
+    display: flex; /* Ativa o Flexbox */
+    flex-direction: column; /* Empilha elementos verticalmente */
+    align-items: center; /* Alinha horizontalmente ao centro */
+    justify-content: center; /* Alinha verticalmente ao centro */
+    width: 50%; /* Define a largura do formulário (ajuste como desejar) */
+    margin: 0 auto; /* Adiciona margens automáticas para centralização horizontal */
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.2); /* Fundo semitransparente (opcional) */
+    color: #fff;
+    }
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: #fff;
+    bottom: 0;
+    width: 100%;
+}
